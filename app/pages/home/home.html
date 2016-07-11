@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+    <ion-buttons end>
+      <button (click)="addItem()">
+        <ion-icon name="add"></ion-icon>
+      </button>
+
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-list padding *ngIf="items.length=== 0">
+    <p>Looks like there's no data</p>
+  </ion-list>
+  <ion-list *ngIf="items.length> 0">
+    <ion-item *ngFor="let item of items">{{item.title}}</ion-item>
+  </ion-list>
+
+</ion-content>

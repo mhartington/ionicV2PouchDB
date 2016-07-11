@@ -1,0 +1,8 @@
+{
+  "dependencies": {},
+  "devDependencies": {},
+  "globalDependencies": {
+    "es6-shim": "registry:dt/es6-shim#0.31.2+20160602141504",
+    "pouchdb/pouch": "registry:dt/pouchdb/pouch#0.1.0+20160608101805"
+  }
+}
